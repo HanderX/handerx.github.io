@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+    body {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    form {
+      width: 500px;
+      color: white;
+      border: solid 1px;
+      background-color: rgb(79, 116, 240);
+      text-align: center;
+      padding: 20px;
+    }
+
+    input {
+      color: rgb(0, 0, 0);
+      background-color: aliceblue;
+      margin-bottom: 10px;
+      font-family: 'Kanit', sans-serif;
+    }
+
+    select {
+      font-family: 'Kanit', sans-serif;
+      background-color: white;
+      color: rgb(0, 0, 0);
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      background-color: rgb(79, 116, 240);
+      margin-top: 0;
+      padding: 10px;
+      font-family: 'Kanit', sans-serif;
+    }
+    option{
+      font-family: 'Kanit', sans-serif;
+    }
+
+    p{
+      font-family: 'Kanit', sans-serif;
+    }
+
+    span{font-family: 'Kanit', sans-serif;
+   
+  }
+  .mail{
+    margin-left: 25px;
+  }
+
+
+  </style>
+</head>
+<body>
+  <form>
+    <h3>Crie sua conta</h3>
+    <span id="e">Email:</span>
+    <input class="mail" type="email" placeholder="Email"><br>
+    <span>Password:</span>
+    <input type="text" placeholder="Senha"><br>
+    <span>Password:</span>
+    <input type="text" placeholder="Confirme a senha"><br>
+
+    <p>Selecione sua data de nascimento:</p><br>
+    <input type="date"><br>
+
+    <p>Selecione seu sexo:</p><br>
+    <select>
+      <option>Masculino</option>
+      <option>Feminino</option> 
+      <option>Outros</option>   
+    </select><br>
+
+    <input type="submit" value="Registrar"> 
+  </form>
+</body>
+</html>
